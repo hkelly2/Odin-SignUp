@@ -2,3 +2,48 @@
 ::after{
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    display:flex
+}
+
+.logo {
+    background-color: aquamarine;
+    background-image: url(./media/BG.png) ;
+    min-height: 100vh;
+    min-width: 40vw;
+}
+
+.logoText {
+    color: white;
+    font-family: 'Skranji',sans-serif;
+    margin-top: 25vh;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.logoText img {
+    height: 12.5vh;
+}
+
+p {
+    font-size: 18px;
+}
+
+.rightSide {
+    font-family:'Roboto';
+    padding-left: 2vw;
+    background-color: beige;
+}
+
+.rightFormWhiteBG {
+    background-color: white;
+}
+
+input[type="password"]:invalid {
+  border: 2px solid red;
+}

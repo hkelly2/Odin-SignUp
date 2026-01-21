@@ -5,65 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,87.5,100..900;1,87.5,100..900&family=Skranji:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="logo">
+        <div class="logoText">
+            <div class="logoImage">
+                 <img alt="" src="./media/odin-lined.png">
+            </div>
+            <h1>ODIN</h1>
+        </div>
+    </div>
+
+    <div class="rightSide">
+        <div class="rightInfo">
+            <p>
+                <strong>This is not a real online service! You know you need something like this in your life to realize your deepest dreams. Sign up <i>now</i> to get started.</strong>
+            </p>
+            <p>
+                <strong>you <i>know</i> you want to</strong>
+            </p>
+        </div>
+
+        <div class="rightForm">
+            <div class="rightFormWhiteBG">
+                <p>
+                Let's do this!
+            </p>
+            <form action="." method="get">
+                <Label for="firstName">First Name</Label>
+                <input 
+                    type="text"
+                    id="firstName"
+                    name="firstName">
+
+                <Label for="lasttName">Last Name</Label>
+                <input 
+                    type="text"
+                    id="lastName"
+                    name="lastName">
+
+                <Label for="userEmail">Email</Label>
+                <input 
+                    type="email"
+                    id="userEmail"
+                    name="email"
+                    placeholder="you@example.com">
+
+                <Label for="phoneNumber">Phone Number</Label>
+                <input 
+                    type="tel"
+                    id="phoneNumber"
+                    name="phoneNumber">
+                    
+                <Label for="userPassword">Password</Label>
+                <input 
+                    type="password"
+                    id="userPassword"
+                    name="password">
+
+                <Label for="confPassword">Confirm Password</Label>
+                <input 
+                    type="password"
+                    id="confPassword"
+                    name="confPassword">
+            </div>
+        
+                <button onclick="alert('fake button lol')">Create Account</button>
+            </form>
+        </div>
     
-    <img alt="" src="./media/BG.png">
-    <img alt="" src="./media/odin-lined.png">
-    <p>
-        This is not a real online service! You know you need something like this in your life to realize your deepest dreams. Sign up <i>now</i> to get started.
-    </p>
-    <p>
-        You <i>know</i> you want to.
-    </p>
-
-    <p>
-        Let's do this!
-    </p>
-    <form action="." method="get">
-        <Label for="firstName">First Name</Label>
-        <input 
-            type="text"
-            id="firstName"
-            name="firstName">
-
-        <Label for="lasttName">Last Name</Label>
-        <input 
-            type="text"
-            id="lastName"
-            name="lastName">
-
-        <Label for="userEmail">Email</Label>
-        <input 
-            type="email"
-            id="userEmail"
-            name="email"
-            placeholder="you@example.com">
-
-        <Label for="phoneNumber">Phone Number</Label>
-        <input 
-            type="tel"
-            id="phoneNumber"
-            name="phoneNumber">
-            
-        <Label for="userPassword">Password</Label>
-        <input 
-            type="password"
-            id="userPassword"
-            name="password">
-
-        <Label for="confPassword">Confirm Password</Label>
-        <input 
-            type="password"
-            id="confPassword"
-            name="confPassword">
-
-        <button onclick="alert('fake button lol')">Create Account</button>
-    </form>
 
     <p>
         Already have an account? <a href="whatever.html">Login</a>
     </p>
+    </div>
+
 
     <script src="./script.js"></script>
 </body>
