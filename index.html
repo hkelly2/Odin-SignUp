@@ -22,65 +22,90 @@
     <div class="rightSide">
         <div class="rightInfo">
             <p>
-                <strong>This is not a real online service! You know you need something like this in your life to realize your deepest dreams. Sign up <i>now</i> to get started.</strong>
+                This is not a real online service! You know you need something like this in your life to realize your deepest dreams. Sign up <i>now</i> to get started.
             </p>
             <p>
-                <strong>you <i>know</i> you want to</strong>
+                you <i>know</i> you want to
             </p>
         </div>
 
         <div class="rightForm">
-            <div class="rightFormWhiteBG">
-                <p>
-                Let's do this!
-            </p>
+
             <form action="." method="get">
-                <Label for="firstName">First Name</Label>
-                <input 
-                    type="text"
-                    id="firstName"
-                    name="firstName">
 
-                <Label for="lasttName">Last Name</Label>
-                <input 
-                    type="text"
-                    id="lastName"
-                    name="lastName">
+                <div class="rightFormWhiteBG">
+                    <p>
+                    Let's do this!
+                    </p>
 
-                <Label for="userEmail">Email</Label>
-                <input 
-                    type="email"
-                    id="userEmail"
-                    name="email"
-                    placeholder="you@example.com">
+                    <div class="formInput">
+                        
+                        <div class="formInputLeft">
+                            
+                            <Label for="firstName">FIRST NAME</Label>
+                            <input 
+                                type="text"
+                                id="firstName"
+                                name="firstName"
+                                required>
 
-                <Label for="phoneNumber">Phone Number</Label>
-                <input 
-                    type="tel"
-                    id="phoneNumber"
-                    name="phoneNumber">
-                    
-                <Label for="userPassword">Password</Label>
-                <input 
-                    type="password"
-                    id="userPassword"
-                    name="password">
+                            <Label for="userEmail">EMAIL</Label>
+                            <input 
+                                type="email"
+                                id="userEmail"
+                                name="email"
+                                placeholder="you@example.com"
+                                required>
 
-                <Label for="confPassword">Confirm Password</Label>
-                <input 
-                    type="password"
-                    id="confPassword"
-                    name="confPassword">
-            </div>
-        
-                <button onclick="alert('fake button lol')">Create Account</button>
+                            <Label for="userPassword">PASSWORD</Label>
+                            <input 
+                                type="password"
+                                id="userPassword"
+                                name="password"
+                                required>
+
+                        </div>
+                        
+                        <div class="formInputRight">
+                            <Label for="lasttName">LAST NAME</Label>
+                            <input 
+                                type="text"
+                                id="lastName"
+                                name="lastName"
+                                required>
+                            
+                            <Label for="phoneNumber">PHONE NUMBER</Label>
+                            <input 
+                                type="tel"
+                                id="phoneNumber"
+                                name="phoneNumber"
+                                required>
+                                
+                            <Label for="confPassword">CONFIRM PASSWORD</Label>
+                            <input 
+                                type="password"
+                                id="confPassword"
+                                name="confPassword"
+                                required>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="rightSubmitButton">
+                    <button type="submit" onclick="alert('fake button lol')">Create Account</button>
+                </div>
+
             </form>
-        </div>
-    
 
-    <p>
-        Already have an account? <a href="whatever.html">Login</a>
-    </p>
+            <div class="rightLoginRedirect">
+                <p>
+                    Already have an account? <a href="whatever.html">Login</a>
+                </p>
+            </div>
+        </div>
     </div>
 
 

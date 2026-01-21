@@ -32,16 +32,67 @@ body {
 
 p {
     font-size: 18px;
+    font-weight: 600;
 }
 
 .rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-family:'Roboto';
+    background-color: rgb(240, 255, 241);
+}
+
+.rightInfo {
     padding-left: 2vw;
-    background-color: beige;
+    padding-right: 20vw;
 }
 
 .rightFormWhiteBG {
     background-color: white;
+    padding-left: 2vw;
+    padding-right: 30vw;
+    padding-top: 1px;
+    padding-bottom: 22px;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+}
+
+.formInput {
+    display: flex;
+}
+
+.formInput label {
+    color: rgb(41, 41, 41);
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.rightSubmitButton {
+    padding-left: 2vw;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.rightSubmitButton button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+    background-color: rgb(68, 122, 91);
+}
+
+.rightLoginRedirect {
+    padding-left: 2vw;
+}
+
+.rightLoginRedirect a {
+    color: rgb(68, 122, 91);
+    text-decoration: none;
 }
 
 input[type="password"]:invalid {
