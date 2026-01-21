@@ -97,4 +97,5 @@ p {
 
 input[type="password"]:invalid {
   border: 2px solid red;
+  border-radius: 2px;
 }

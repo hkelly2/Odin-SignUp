@@ -47,6 +47,7 @@
                                 type="text"
                                 id="firstName"
                                 name="firstName"
+                                maxlength="30"
                                 required>
 
                             <Label for="userEmail">EMAIL</Label>
@@ -62,6 +63,8 @@
                                 type="password"
                                 id="userPassword"
                                 name="password"
+                                minlength="8"
+                                maxlength="20"
                                 required>
 
                         </div>
@@ -72,6 +75,7 @@
                                 type="text"
                                 id="lastName"
                                 name="lastName"
+                                maxlength="30"
                                 required>
                             
                             <Label for="phoneNumber">PHONE NUMBER</Label>
@@ -79,6 +83,8 @@
                                 type="tel"
                                 id="phoneNumber"
                                 name="phoneNumber"
+                                pattern="[0-9]{10}"
+                                placeholder="5550001234"
                                 required>
                                 
                             <Label for="confPassword">CONFIRM PASSWORD</Label>
@@ -86,6 +92,8 @@
                                 type="password"
                                 id="confPassword"
                                 name="confPassword"
+                                minlength="8"
+                                maxlength="20"
                                 required>
 
                         </div>
@@ -95,7 +103,7 @@
                 </div>
 
                 <div class="rightSubmitButton">
-                    <button type="submit" onclick="alert('fake button lol')">Create Account</button>
+                    <button type="submit">Create Account</button>
                 </div>
 
             </form>
